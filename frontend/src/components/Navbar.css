@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #282c34; /* Dark background color */
+    color: #fff; /* Text color */
+    height: 60px; /* Height of the navbar */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .navbar-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo-img {
+    width: 40px; /* Adjust logo size */
+    height: 40px; /* Adjust logo size */
+    margin-right: 10px;
+  }
+  
+  .navbar-logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #61dafb; /* Link color */
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .navbar-link p {
+    margin: 0;
+  }
+  
+  /* Add hover effect for links */
+  .navbar-link:hover {
+    color: #21a1f1; /* Change link color on hover */
+  }
+  
